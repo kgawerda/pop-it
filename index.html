@@ -4,81 +4,97 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Pop It!</title>
   </head>
   <body>
-    <div class="header container--vertical">
-      <div class="menu container--horizontal">
-        <a class="link menu__link menu__link--left" href="">Strona główna</a>
-        <div class="menu__container--right">
-          <a class="link menu__link" href="">O nas</a>
-          <a class="link menu__link" href="">Przeceny</a>
-          <a class="link menu__link" href="">Kontakt</a>
+    <div class="container container--vertical">
+      <div class="header container--vertical">
+        <div class="menu container container--horizontal">
+          <a class="link menu__link menu__link--left" href="">STRONA GŁÓWNA</a>
+          <div class="container container--horizontal menu__container--right">
+            <a class="link menu__link menu__link--right" href="">O NAS</a>
+            <a class="link menu__link menu__link--right" href="">PRZECENY</a>
+            <a class="link menu__link menu__link--right" href="">KONTAKT</a>
+          </div>
+        </div>
+        <div class="container container--vertical text__container--left">
+          <h1 class="text header__text header__text--big">POP IT!</h1>
+          <p class="text header__text header__text--small">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut
+            feugiat orci!
+          </p>
+          <button class="button button--blue">Kup teraz</button>
         </div>
       </div>
-      <div class="container container--vertical">
-        <h1 class="text header__text--big">POP IT!</h1>
-        <p class="text header__text--small">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut
-          feugiat orci!
+      <div class="container container--vertical text__container--center">
+        <h1 class="text container__heading">Co to Pop it?</h1>
+        <p class="text container__text">
+          Integer mi sapien, rutrum quis placerat nec, volutpat in sapien.
+          Aenean ut felis eu diam vestibulum dapibus. Nam euismod feugiat
+          maximus. Maecenas purus leo, sollicitudin eget libero sed, tincidunt
+          blandit erat. Sed egestas tincidunt vehicula. In pellentesque augue
+          justo, vitae scelerisque urna dictum quis.
         </p>
-        <button class="button button--blue">Kup teraz</button>
       </div>
-    </div>
-    <div class="container container--vertical">
-      <h1 class="text container__heading">Co to Pop it?</h1>
-      <p class="text container__text"></p>
-    </div>
-    <div class="container container--vertical">
-      <h1 class="text container__heading">Wybierz swój Pop it!</h1>
-      <div class="container container--horizontal">
-        <div class="container container__choice">
-          <img
-            src="./imgs/square.png"
-            class="image image--png"
-            alt="kwadratowy pop it"
-          />
-          <h2 class="text choice__text">Kwadratowy Pop It</h2>
-          <button class="button button--orange">Kup teraz</button>
-        </div>
-        <div class="container container__choice">
-          <img
-            src="./imgs/amogus.png"
-            class="image image--png"
-            alt="among us pop it"
-          />
-          <h2 class="text choice__text">Among Us Pop It</h2>
-          <button class="button button--orange">Kup teraz</button>
-        </div>
-        <div class="container container__choice">
-          <img
-            src="./imgs/round.png"
-            class="image image--png"
-            alt="round pop it"
-          />
-          <h2 class="text choice__text">Okrągły Pop It</h2>
-          <button class="button button--orange">Kup teraz</button>
+      <div class="container container--vertical container--blue">
+        <h1 class="text container__heading">Wybierz swój Pop it!</h1>
+        <div class="container container--horizontal container__images">
+          <div class="container container--vertical container__choice">
+            <img
+              src="./imgs/square.png"
+              class="image image--png"
+              alt="kwadratowy pop it"
+            />
+            <h2 class="text choice__text">Kwadratowy Pop It</h2>
+            <button class="button button--orange">Kup teraz</button>
+          </div>
+          <div class="container container--vertical container__choice">
+            <img
+              src="./imgs/amogus.png"
+              class="image image--png"
+              alt="among us pop it"
+            />
+            <h2 class="text choice__text">Among Us Pop It</h2>
+            <button class="button button--orange">Kup teraz</button>
+          </div>
+          <div class="container container--vertical container__choice">
+            <img
+              src="./imgs/round.png"
+              class="image image--png"
+              alt="round pop it"
+            />
+            <h2 class="text choice__text">Okrągły Pop It</h2>
+            <button class="button button--orange">Kup teraz</button>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container container--horizontal">
-      <div class="container container--vertical">
-        <h1 class="text container__heading">Lorem Ipsum</h1>
-        <p class="text container__text"></p>
+      <div class="container container--horizontal background--two">
+        <div class="container container--vertical">
+          <h1 class="text container__heading text--left">Lorem Ipsum</h1>
+          <p class="text container__text text--left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            tortor urna. Duis consequat, metus sed tincidunt congue, sem urna
+            rutrum erat, eget ultricies mi erat a augue. Nullam varius ipsum
+            eros, ut condimentum odio pulvinar non. In a arcu suscipit, tempus
+            nisi id, elementum nisl.
+          </p>
+        </div>
+        <img
+          src="./imgs/photo.jpg"
+          class="image image--jpg"
+          alt="ręka klikająca pop it"
+        />
       </div>
-      <img
-        src="./imgs/photo.jpg"
-        class="image image--jpg"
-        alt="ręka klikająca pop it"
-      />
-    </div>
-    <div class="footer container--horizontal">
-      <a class="link footer__link footer__link--bold" href="">Strona główna</a>
-      <a class="link footer__link" href="">Płatności</a>
-      <a class="link footer__link" href="">Dostawa</a>
-      <a class="link footer__link" href="">Zgody</a>
-      <a class="link footer__link" href="">Kontakt</a>
+      <div class="footer container--horizontal">
+        <a class="link footer__link footer__link--bold" href=""
+          >Strona główna</a
+        >
+        <a class="link footer__link" href="">Płatności</a>
+        <a class="link footer__link" href="">Dostawa</a>
+        <a class="link footer__link" href="">Zgody</a>
+        <a class="link footer__link" href="">Kontakt</a>
+      </div>
     </div>
   </body>
 </html>
